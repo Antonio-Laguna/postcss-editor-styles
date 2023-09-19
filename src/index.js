@@ -36,28 +36,28 @@ const defaults = {
 		':not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"])'
 };
 
+const firstOrLastSelector = (optsArray, selectorArray) => {
+	const [firstSelector] = selectorArray;
+	const lastSelector = selectorArray[selectorArray.length - 1];
+	const selectorIn = [];
+
+	if (optsArray.includes(firstSelector)) {
+		selectorIn.push(firstSelector);
+	} else if (optsArray.includes(lastSelector)) {
+		selectorIn.push(lastSelector);
+	} else {
+		return false;
+	}
+
+	return selectorIn;
+};
+
 /**
  * @param {object} options
  * @returns {import('postcss').Plugin}
  */
 export default function creator(options) {
 	const opts = { ...defaults, ...options };
-
-	const firstOrLastSelector = (optsArray, selectorArray) => {
-		let firstSelector = selectorArray[0];
-		let lastSelector = selectorArray[selectorArray.length - 1];
-		const selectorIn = [];
-
-		if (-1 !== optsArray.indexOf(firstSelector)) {
-			selectorIn.push(firstSelector);
-		} else if (-1 !== optsArray.indexOf(lastSelector)) {
-			selectorIn.push(lastSelector);
-		} else {
-			return false;
-		}
-
-		return selectorIn;
-	};
 
 	return {
 		postcssPlugin: 'postcss-editor-styles-wrapper',
