@@ -1,10 +1,2 @@
 node_modules
-index.*.*
-package-lock.json
-yarn.lock
-*.log*
-*.code-workspace
-*.result.css
-/.eslintcache
-.vscode/launch.json
-.DS_Store
+dist
