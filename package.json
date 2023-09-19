@@ -1,6 +1,6 @@
 {
 	"name": "postcss-editor-styles-wrapper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Remove your editor-styles from the global scope ",
 	"author": "Antonio Laguna <antonio@laguna.es>",
 	"license": "MIT-0",
