@@ -4,7 +4,10 @@
 	"description": "Remove your editor-styles from the global scope ",
 	"author": "Antonio Laguna <antonio@laguna.es>",
 	"license": "MIT-0",
-	"repository": "m-e-h/postcss-editor-styles",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Antonio-Laguna/postcss-editor-styles.git"
+	},
 	"homepage": "https://github.com/Antonio-Laguna/postcss-editor-styles#readme",
 	"bugs": "https://github.com/Antonio-Laguna/postcss-editor-styles/issues",
 	"scripts": {
