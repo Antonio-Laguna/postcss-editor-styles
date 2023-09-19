@@ -1,9 +1,9 @@
-# PostCSS Editor Styles [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">][postcss]
+# PostCSS Editor Styles Wrapper [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS" width="90" height="90" align="right">][postcss]
 
 [![NPM Version][npm-img]][npm-url]
 [![Support Chat][git-img]][git-url]
 
-[PostCSS Editor Styles] lets you do this in CSS.
+[PostCSS Editor Styles Wrapper] lets you do this in CSS.
 
 > **Note**
 > This is a fork of [postcss-editor-styles](https://github.com/m-e-h/postcss-editor-styles) that works with PostCSS 8 and ensuring this is the last thing to run.
@@ -102,10 +102,9 @@ tagSuffix: ':not([class^="components-"]):not([class^="editor-"]):not([class^="bl
 | ----------------------- | ------------------------------------- | ----------------------------- | ----------------------------------------------- | ----------------------- | ------------------------- |
 
 
-[cli-img]: https://img.shields.io/travis/m-e-h/postcss-editor-styles.svg
 [git-img]: https://img.shields.io/badge/support-chat-blue.svg
 [git-url]: https://gitter.im/postcss/postcss
-[npm-img]: https://img.shields.io/npm/v/postcss-editor-styles.svg
-[npm-url]: https://www.npmjs.com/package/postcss-editor-styles
+[npm-img]: https://img.shields.io/npm/v/postcss-editor-styles-wrapper.svg
+[npm-url]: https://www.npmjs.com/package/postcss-editor-styles-wrapper
 [postcss]: https://github.com/postcss/postcss
-[PostCSS Editor Styles]: https://github.com/Antonio-Laguna/postcss-editor-styles
+[PostCSS Editor Styles Wrapper]: https://github.com/Antonio-Laguna/postcss-editor-styles
