@@ -50,7 +50,7 @@ button {          /* scoped and negated */
 
 ## Usage
 
-Add [PostCSS Editor Styles] to your project:
+Add [PostCSS Editor Styles Wrapper] to your project:
 
 ```bash
 npm install postcss-editor-styles --save-dev
@@ -96,7 +96,7 @@ tagSuffix: ':not([class^="components-"]):not([class^="editor-"]):not([class^="bl
 ```
 
 
-[PostCSS Editor Styles] runs in all Node environments, with special instructions for:
+[PostCSS Editor Styles Wrapper] runs in all Node environments, with special instructions for:
 
 | [Node](INSTALL.md#node) | [PostCSS CLI](INSTALL.md#postcss-cli) | [Webpack](INSTALL.md#webpack) | [Create React App](INSTALL.md#create-react-app) | [Gulp](INSTALL.md#gulp) | [Grunt](INSTALL.md#grunt) |
 | ----------------------- | ------------------------------------- | ----------------------------- | ----------------------------------------------- | ----------------------- | ------------------------- |

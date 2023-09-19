@@ -6,10 +6,10 @@
 	"license": "MIT-0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Antonio-Laguna/postcss-editor-styles.git"
+		"url": "https://github.com/Antonio-Laguna/postcss-editor-styles-wrapper.git"
 	},
-	"homepage": "https://github.com/Antonio-Laguna/postcss-editor-styles#readme",
-	"bugs": "https://github.com/Antonio-Laguna/postcss-editor-styles/issues",
+	"homepage": "https://github.com/Antonio-Laguna/postcss-editor-styles-wrapper#readme",
+	"bugs": "https://github.com/Antonio-Laguna/postcss-editor-styles-wrapper/issues",
 	"scripts": {
 		"build": "rollup -c ./rollup/default.mjs",
 		"prepublishOnly": "npm run build && npm run test",
