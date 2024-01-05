@@ -20,13 +20,13 @@ scope and avoid unrelated commits.
 1. To begin; [fork this project], clone your fork, and add our upstream.
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone git@github.com:YOUR_USER/postcss-editor-styles.git
+   git clone git@github.com:YOUR_USER/postcss-editor-styles-wrapper.git
 
    # Navigate to the newly cloned directory
-   cd postcss-editor-styles
+   cd postcss-editor-styles-wrapper
 
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream git@github.com:jonathantneal/postcss-editor-styles.git
+   git remote add upstream git@github.com:jonathantneal/postcss-editor-styles-wrapper.git
 
    # Install the tools necessary for testing
    npm install
