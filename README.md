@@ -53,13 +53,13 @@ button {          /* scoped and negated */
 Add [PostCSS Editor Styles Wrapper] to your project:
 
 ```bash
-npm install postcss-editor-styles --save-dev
+npm install postcss-editor-styles-wrapper --save-dev
 ```
 
 Use [PostCSS Editor Styles] to process your CSS:
 
 ```js
-const postcssEditorStyles = require("postcss-editor-styles");
+const postcssEditorStyles = require("postcss-editor-styles-wrapper");
 
 postcssEditorStyles.process(YOUR_CSS /*, processOptions, pluginOptions */);
 ```
@@ -68,7 +68,7 @@ Or use it as a [PostCSS] plugin:
 
 ```js
 const postcss = require("postcss");
-const postcssEditorStyles = require("postcss-editor-styles");
+const postcssEditorStyles = require("postcss-editor-styles-wrapper");
 
 postcss([postcssEditorStyles(/* pluginOptions */)]).process(
   YOUR_CSS /*, processOptions */
